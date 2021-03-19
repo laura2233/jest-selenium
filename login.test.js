@@ -55,10 +55,6 @@ describe("Login Function", () => {
 
 describe("Reset Username or Password", () => {
 
-  test('initialises the context', async () => {
-    await driver.get(rootURL)
-  })
-
   test('should redirect to reset password page', async() => {
     await driver.navigate().to("https://www.donorperfect.net/prod/Logon/");
     await driver.findElement(By.id("forgot_password")).click();
@@ -75,10 +71,6 @@ describe("Reset Username or Password", () => {
 })
 
 describe("External Links", () => {
-
-  test('initialises the context', async () => {
-    await driver.get(rootURL)
-  })
 
   test('should redirect to rewards program page', async() => {
     await driver.navigate().to("https://www.donorperfect.net/prod/Logon/");
