@@ -15,5 +15,5 @@ npm install chromedriver
 
 # Run
 ```
-node test
+npm run test
 ```
